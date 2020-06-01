@@ -1,0 +1,128 @@
+C:\Users\nbhatcb\Music\Devnet\Devnet-Data-Models>git show
+commit 52b8a3802f9c8068c251e687e961aef024312827 (HEAD -> master)
+Author: nbhatcb <nagapoojabhat@gmail.com>
+Date:   Mon Jun 1 16:43:34 2020 +0530
+
+    Task 1
+
+diff --git a/sample.py b/sample.py
+new file mode 100644
+index 0000000..55d544f
+--- /dev/null
++++ b/sample.py
+@@ -0,0 +1,19 @@
++import xmltodict
++import yaml
++import json
++from json import loads
++from dicttoxml import dicttoxml
++
++with open('sample.json','r') as f:
++       jdata=json.load(f)
++jdata=json.dumps(jdata)
++xl=dicttoxml(loads(jdata)).decode("utf-8")
++with open('sample.xml','w') as f:
++       f.write(xl)
++yam=yaml.safe_load(jdata)
++with open ('sample.yml','w') as f:
++       yaml.dump(yam,f)
++
++
+:...skipping...
+commit 52b8a3802f9c8068c251e687e961aef024312827 (HEAD -> master)
+Author: nbhatcb <nagapoojabhat@gmail.com>
+Date:   Mon Jun 1 16:43:34 2020 +0530
+
+    Task 1
+
+diff --git a/sample.py b/sample.py
+new file mode 100644
+index 0000000..55d544f
+--- /dev/null
++++ b/sample.py
+@@ -0,0 +1,19 @@
++import xmltodict
++import yaml
++import json
++from json import loads
++from dicttoxml import dicttoxml
++
++with open('sample.json','r') as f:
++       jdata=json.load(f)
++jdata=json.dumps(jdata)
++xl=dicttoxml(loads(jdata)).decode("utf-8")
++with open('sample.xml','w') as f:
++       f.write(xl)
++yam=yaml.safe_load(jdata)
++with open ('sample.yml','w') as f:
++       yaml.dump(yam,f)
++
++
++
++
+diff --git a/sample.yml b/sample.yml
+new file mode 100644
+index 0000000..56946b8
+--- /dev/null
++++ b/sample.yml
+@@ -0,0 +1,21 @@
++data:
++  country:
++  - '@name': Liechtenstein
++    gdppc: '141100'
++    neighbor:
++    - {'@direction': E, '@name': Austria}
++    - {'@direction': W, '@name': Switzerland}
++    rank: '1'
++    year: '2008'
++  - '@name': Singapore
++    gdppc: '59900'
++    neighbor: {'@direction': N, '@name': Malaysia}
++    rank: '4'
++    year: '2011'
++  - '@name': Panama
++    gdppc: '13600'
++    neighbor:
++    - {'@direction': W, '@name': Costa Rica}
++    - {'@direction': E, '@name': Colombia}
++    rank: '68'
++    year: '2011'
+
+
+C:\Users\nbhatcb\Music\Devnet\Devnet-Data-Models>git log
+commit 52b8a3802f9c8068c251e687e961aef024312827 (HEAD -> master)
+Author: nbhatcb <nagapoojabhat@gmail.com>
+Date:   Mon Jun 1 16:43:34 2020 +0530
+
+    Task 1
+
+commit 60bde210f8e6c5ce72950aa6ec24da192f9466b6 (origin/master, origin/HEAD)
+Merge: a54f6d6 4eea0cc
+Author: Chetan Pissay (cpissay) <cpissay@cisco.com>
+Date:   Mon Jun 1 14:42:46 2020 +0530
+
+    Merge branch 'master' of https://github.com/cpissay/Devnet-Data-Models
+
+commit a54f6d6d478341e9bc58b8171dae84c6051075af
+Author: Chetan Pissay (cpissay) <cpissay@cisco.com>
+Date:   Mon Jun 1 14:38:20 2020 +0530
+
+    Added gitignore and tests
+
+commit 4eea0cc4fd3a40ed25bc138b00cabaa0ff28d837
+Author: cpissay <60356443+cpissay@users.noreply.github.com>
+Date:   Mon Jun 1 11:41:55 2020 +0530
+
+    Update README.md
+
+commit 13dd7ee7f24061dfce8c2008dc128911c1b15862
+Author: cpissay <60356443+cpissay@users.noreply.github.com>
+Date:   Mon Jun 1 11:23:06 2020 +0530
+
+    Add files via upload
+
+commit a99e6df896283bc494a6bacc7aacafb839a1cf7e
+Author: cpissay <60356443+cpissay@users.noreply.github.com>
+Date:   Mon Jun 1 11:20:56 2020 +0530
+
+    Initial commit
