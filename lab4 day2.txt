@@ -1,0 +1,105 @@
+{
+    "args": {},
+    "headers": {
+        "x-forwarded-proto": "http",
+        "x-forwarded-port": "80",
+        "host": "postman-echo.com",
+        "x-amzn-trace-id": "Root=1-5ed6041f-9031be10a7ef2410c17093f0",
+        "user-agent": "PostmanRuntime/7.25.0",
+        "accept": "*/*",
+        "postman-token": "5cc4a28b-84e2-4f80-b0c9-e6ec3c21b978",
+        "accept-encoding": "gzip, br",
+        "x-imforwards": "20",
+        "via": "1.1 rcdn9-cd2-dmz-wsa-3.cisco.com:80 (Cisco-WSA/X)"
+    },
+    "url": "http://postman-echo.com/get"
+}
+
+{
+    "success": true,
+    "deck_id": "ajbuzr3ds4k0",
+    "remaining": 52,
+    "shuffled": true
+}
+
+{
+    "success": true,
+    "deck_id": "zy10qgjdj032",
+    "cards": [
+        {
+            "code": "8S",
+            "image": "https://deckofcardsapi.com/static/img/8S.png",
+            "images": {
+                "svg": "https://deckofcardsapi.com/static/img/8S.svg",
+                "png": "https://deckofcardsapi.com/static/img/8S.png"
+            },
+            "value": "8",
+            "suit": "SPADES"
+        },
+        {
+            "code": "4S",
+            "image": "https://deckofcardsapi.com/static/img/4S.png",
+            "images": {
+                "svg": "https://deckofcardsapi.com/static/img/4S.svg",
+                "png": "https://deckofcardsapi.com/static/img/4S.png"
+            },
+            "value": "4",
+            "suit": "SPADES"
+        },
+        {
+            "code": "JD",
+            "image": "https://deckofcardsapi.com/static/img/JD.png",
+            "images": {
+                "svg": "https://deckofcardsapi.com/static/img/JD.svg",
+                "png": "https://deckofcardsapi.com/static/img/JD.png"
+            },
+            "value": "JACK",
+            "suit": "DIAMONDS"
+        }
+    ],
+    "remaining": 49
+}
+
+
+{
+    "success": true,
+    "deck_id": "zy10qgjdj032",
+    "cards": [
+        {
+            "code": "9C",
+            "image": "https://deckofcardsapi.com/static/img/9C.png",
+            "images": {
+                "svg": "https://deckofcardsapi.com/static/img/9C.svg",
+                "png": "https://deckofcardsapi.com/static/img/9C.png"
+            },
+            "value": "9",
+            "suit": "CLUBS"
+        },
+        {
+            "code": "9H",
+            "image": "https://deckofcardsapi.com/static/img/9H.png",
+            "images": {
+                "svg": "https://deckofcardsapi.com/static/img/9H.svg",
+                "png": "https://deckofcardsapi.com/static/img/9H.png"
+            },
+            "value": "9",
+            "suit": "HEARTS"
+        },
+        {
+            "code": "7C",
+            "image": "https://deckofcardsapi.com/static/img/7C.png",
+            "images": {
+                "svg": "https://deckofcardsapi.com/static/img/7C.svg",
+                "png": "https://deckofcardsapi.com/static/img/7C.png"
+            },
+            "value": "7",
+            "suit": "CLUBS"
+        }
+    ],
+    "remaining": 46
+}
+
+b'{"success": true, "deck_id": "ys93vd9k0shn", "remaining": 312, "shuffled": true}'
+ys93vd9k0shn
+
+
